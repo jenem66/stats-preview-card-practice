@@ -15,14 +15,17 @@ html {
   }
 
 body {
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: flex-end; */
+  align-items: center;
+
   box-sizing: border-box;
+
   font-family: 'Inter', sans-serif;
   line-height: 25px;
   font-size: 1.5rem;
   font-weight: 400;
+  
   color: var(--color-light);
   background-color: var(--color-background);
   padding: 100px;
@@ -44,32 +47,20 @@ img {
   max-width: 100%;
 }
 
-/* UTILITY */
-
-.row {
-  display: flex;
-}
-
-.container {
-  max-width: 1200px;
-  width: 80%;
-  margin: 0 auto;
-}
-
 /* STATS CARD*/
 
 .stats-card {
   display: flex;
   max-width: 1110px;
-  /* position: absolute;
+  /*position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%); */
-  margin: 0 auto;
+  -webkit-transform: translateY(50%);
+  -moz-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  -o-transform: translateY(50%);
+  */
   border: 0px solid;
   border-radius: 8px;
   -webkit-border-radius: 8px;
