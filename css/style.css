@@ -15,6 +15,8 @@ html {
   }
 
 body {
+  height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,6 +75,7 @@ img {
   background-color: var(--color-dark);
   padding: 7.2rem;
   padding-bottom: 6rem;
+  border-radius: 8px 0px 0px 8px;
 }
 
 .stats-text {
@@ -106,9 +109,11 @@ img {
 .stats-img {
   width: 50%;
   background-color: var(--color-primary);
-  /* background-image: url(../img/image-header-desktop.jpg);
+  border-radius: 0 8px 8px 0;
+  /*background-image: url(../img/image-header-desktop.jpg);
   background-size: cover;
-  background-blend-mode: multiply; */
+  background-blend-mode: multiply;
+  */;
 }
 
 .stats-img img{
@@ -149,7 +154,8 @@ img {
     width: 100%;
     background-color: var(--color-dark);
     padding: 3.2rem;
-  }
+    border-radius: 0px 0px 8px 8px;
+}
 
   .stats-text {
     max-width: 100%;
@@ -171,6 +177,7 @@ img {
 
   .stats-img {
     width: 100%;
+    border-radius: 8px 8px 0px 0px;
   }
 
 }
